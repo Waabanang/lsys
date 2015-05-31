@@ -2,7 +2,7 @@
 struct node {
 	struct node *next;
 	unsigned char c;
-}
+};
 
-void replace (struct node *old, char *string);
+void replace (struct node *prev, char *set);
 
